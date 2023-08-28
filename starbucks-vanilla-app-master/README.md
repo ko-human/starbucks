@@ -2,8 +2,7 @@
 
 # ☕ STARBUCKS
 
-스타벅스 랜딩 페이지(홈페이지)를 만드는 예제입니다. <br>
-꼭 ⬇ 아래 내용 모두 읽어보시고, ⬆ 완성된 코드도 확인해 보세요!
+스타벅스 랜딩 페이지(홈페이지)를 만드는 예제입니다.
 
 [master 브랜치로 이동](https://github.com/ParkYoungWoong/starbucks-vanilla-app) <br/>
 [signin 브랜치로 이동](https://github.com/ParkYoungWoong/starbucks-vanilla-app/tree/feature/signin)
@@ -147,15 +146,13 @@ body {
 
 ## Google Material Icons
 
-[구글에서 제공하는 머터리얼 아이콘](https://material.io/resources/icons/?style=baseline)을 무료로 사용할 수 있습니다.
+[구글에서 제공하는 머터리얼 아이콘](https://material.io/resources/icons/?style=baseline)
 
 [Getting started for web](https://material.io/develop/web/getting-started)
 
 ```html
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
 ```
-
-다음과 같이 사용할 수 있습니다.
 
 ```html
 <div class="material-icons">upload</div>
@@ -165,8 +162,6 @@ body {
 
 [GSAP(The GreenSock Animation Platform)](https://greensock.com/gsap/)은 자바스크립트로 제어하는 타임라인 기반의 애니메이션 라이브러리입니다.
 [ScrollToPlugin](https://greensock.com/scrolltoplugin/)은 스크롤 애니메이션을 지원하는 GSAP 플러그인입니다.
-
-> 자바스크립트 지식이 뛰어나지 않아도 충분히 사용할 수 있습니다!
 
 ```html
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js" integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ==" crossorigin="anonymous"></script>
